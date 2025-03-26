@@ -10,10 +10,18 @@
 
     <body>
         <?php
-            echo "<h1>Davijncijev kod</h1>";
-            echo "<p>DaVincijev kod je kriminalistički triler američkog pisca Dana Browna.</p>";
-            echo "<a href = 'https://hr.wikipedia.org/wiki/DaVincijev_kod' target = '_blank' >Više o knjizi</a>";
+            $title = "DaVincijev kod";
+            $link = "https://hr.wikipedia.org/wiki/DaVincijev_kod";
+            echo "<h1>$title</h1>";
+            echo "<p>$title je kriminalistički triler američkog pisca Dana Browna.</p>";
+            echo "<a href = $link target = '_blank' >Više o knjizi</a>";
             // Komentar je ime domuneta tj. Vjezba1.php
+
+            echo "<pre>";
+            echo "Naslov: \t $title\n";
+            echo "Autor: \t Dan Brown\n";
+            echo "Žanr: \t kriminalistički triler\n";
+            echo "</pre>";
         ?>
     </body>
 </html>
