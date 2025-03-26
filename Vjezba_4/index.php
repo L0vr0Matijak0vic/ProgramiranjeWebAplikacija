@@ -16,7 +16,7 @@
             <input type = "number" name = "broj2" required>
 
             <br><br>
-            <input type = "submit" value = "Posalji"> 
+            <input type = "submit" value = "Posalji">; 
         </form>
         
     </body>
